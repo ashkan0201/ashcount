@@ -5,7 +5,7 @@ path = os.path.join(os.getcwd(), "src")
 
 sys.path.append(path)
 
-from ashcount import counter , py_counter
+from module.ashcount import counter , py_counter
 
 def tset_counter1():
     assert counter.line_counter(path="text_test.txt") == 4

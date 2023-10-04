@@ -1,4 +1,0 @@
-Hello, I am Ashkan, a programmer.
-     
-
-This part is for testing.

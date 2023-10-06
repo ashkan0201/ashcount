@@ -16,7 +16,11 @@ You can find the above items using this package.
 It is very easy to use modules, now we will give some examples.
 The output will be a number in all modes.
 
-First, we import the `counter` from `ashcount`
+```bash
+pip install ashcount
+```
+
+First, we import the `ashcount` from `ashcount`
 ```python
 from ashcount import ashcount
 ```
@@ -44,7 +48,7 @@ To find the number of `words` in a `txt` file.
 print(ashcount.counter.word_count(path=Txt_file_address))
 ```
 
-For the part where you want to work with `Python` files, you must import `py_counter` from `ashcount`.
+For the part where you want to work with `Python` files, you must import `ashcount` from `ashcount`.
 ```python
 from ashcount import ashcount
 ```

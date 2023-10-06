@@ -18,7 +18,7 @@ The output will be a number in all modes.
 
 First, we import the `counter` from `ashcount`
 ```python
-from ashcount import counter
+from ashcount import ashcount
 ```
 
 The files you use for it must have their addresses to avoid problems!
@@ -29,41 +29,41 @@ Python_file_address = 'example.py'
 
 For example, to find the number of `lines` in a `txt` file.
 ```python
-print(counter.line_counter(path=Txt_file_address))
+print(ashcount.counter.line_counter(path=Txt_file_address))
 ```
 
 To get the number of `main lines` of a `txt` file.
 
 In this section, we do not consider `lines` that are empty or only have extra spaces.
 ```python
-print(counter.counting_main_lines(path=Txt_file_address))
+print(ashcount.counter.counting_main_lines(path=Txt_file_address))
 ```
 
 To find the number of `words` in a `txt` file.
 ```python
-print(counter.word_count(path=Txt_file_address))
+print(ashcount.counter.word_count(path=Txt_file_address))
 ```
 
 For the part where you want to work with `Python` files, you must import `py_counter` from `ashcount`.
 ```python
-from ashcount import py_counter
+from ashcount import ashcount
 ```
 
 And also to find the number of `codes` in a `python` file.
 ```python
-print(py_counter.python_line_count(path=Python_file_address))
+print(ashcount.py_counter.python_line_count(path=Python_file_address))
 ```
 
 To find the net number of `codes` in a `Python` file.
 
 In this section, we do not consider `comments` and `lines` that do not have any code, and we will give you the net number of a code.
 ```python
-print(py_counter.pure_python_code(path=Python_file_address))
+print(ashcount.py_counter.pure_python_code(path=Python_file_address))
 ```
 
 And finally, to find the number of `comments` in a `Python` file.
 ```python
-print(py_counter.python_comment_count(path=Python_file_address))
+print(ashcount.py_counter.python_comment_count(path=Python_file_address))
 ```
 
 ## Ways of communication
